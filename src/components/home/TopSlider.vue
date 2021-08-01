@@ -2,9 +2,7 @@
   <div class="top-slider">
     <van-swipe class="my-swipe" :autoplay="3000" indicator-color="red">
       <van-swipe-item v-for="(slider, index) in sliders" :key="index">
-        <img
-          :src="slider.pic"
-        />
+        <img :src="slider.pic" />
       </van-swipe-item>
     </van-swipe>
   </div>
