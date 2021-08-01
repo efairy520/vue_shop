@@ -3,3 +3,9 @@
         margin-bottom: 50px;
     }
 }
+
+.vshop-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

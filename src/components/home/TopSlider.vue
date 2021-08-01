@@ -12,7 +12,6 @@
 export default {
   props: {
     sliders: {
-      type: Array,
       default() {
         return []
       }

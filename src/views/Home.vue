@@ -4,6 +4,7 @@
     <cate-menu :menus="menus"></cate-menu>
     <lovely-com :lovely="lovely"></lovely-com>
     <recommendation :recommends="recommends"></recommendation>
+    <hot :recommends="recommends"></hot>
   </div>
 </template>
 
@@ -12,12 +13,14 @@ import TopSlider from "@/components/home/TopSlider"
 import CateMenu from "@/components/home/CateMenu"
 import LovelyCom from "@/components/home/Lovely"
 import Recommendation from "@/components/home/Recommendation"
+import Hot from "@/components/home/Hot"
 export default {
   components: {
     TopSlider,
     CateMenu,
     LovelyCom,
-    Recommendation
+    Recommendation,
+    Hot
   },
   data() {
     return {

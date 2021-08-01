@@ -13,7 +13,6 @@
 export default {
   props: {
     menus: {
-      type: Array,
       default() {
         return []
       }

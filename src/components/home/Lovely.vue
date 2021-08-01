@@ -14,7 +14,6 @@
 export default {
   props: {
     lovely: {
-      type: Array,
       default() {
         return []
       }
