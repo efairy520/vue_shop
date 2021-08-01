@@ -3,6 +3,7 @@
     <top-slider :sliders="sliders"></top-slider>
     <cate-menu :menus="menus"></cate-menu>
     <lovely-com :lovely="lovely"></lovely-com>
+    <recommendation :recommends="recommends"></recommendation>
   </div>
 </template>
 
@@ -10,11 +11,13 @@
 import TopSlider from "@/components/home/TopSlider"
 import CateMenu from "@/components/home/CateMenu"
 import LovelyCom from "@/components/home/Lovely"
+import Recommendation from "@/components/home/Recommendation"
 export default {
   components: {
     TopSlider,
     CateMenu,
-    LovelyCom
+    LovelyCom,
+    Recommendation
   },
   data() {
     return {
@@ -54,8 +57,20 @@ export default {
         img: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201017/d0fca260e8d764c5477674f0e73e47ef.gif'
       }, {
         img: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201017/600f83a8d0cae22d0d2239dda434a17e.gif'
-      }
-      ]
+      }],
+      recommends: [{
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      },{
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      },{
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      }]
     }
   }
 }
