@@ -1,24 +1,24 @@
 # vue_shop
 
-## Project setup
+## 安装项目依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 开发环境
 ```
 npm run dev
 ```
 
-### Compiles and minifies for production
+### 生产环境
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### 语法检查
 ```
 npm run lint
 ```
 
-### Customize configuration
+### 自定义配置
 See [Configuration Reference](https://cli.vuejs.org/config/).
