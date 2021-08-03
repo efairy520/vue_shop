@@ -1,24 +1,7 @@
 # vue_shop
 
-## 安装项目依赖
-```
-npm install
-```
+## 安装步骤
+- npm install
+- npm run dev
 
-### 开发环境
-```
-npm run dev
-```
 
-### 生产环境
-```
-npm run build
-```
-
-### 语法检查
-```
-npm run lint
-```
-
-### 自定义配置
-- vue.config.js
