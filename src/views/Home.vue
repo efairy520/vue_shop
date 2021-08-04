@@ -4,8 +4,8 @@
     <cate-menu :menus="menus"></cate-menu>
     <lovely-com :lovely="lovely"></lovely-com>
     <recommendation :recommends="recommends"></recommendation>
-    <hot :recommends="recommends"></hot>
-    <new-product></new-product>
+    <hot :hots="hots"></hot>
+    <new-product :newProds="newProds"></new-product>
   </div>
 </template>
 
@@ -67,6 +67,40 @@ export default {
         img: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201017/600f83a8d0cae22d0d2239dda434a17e.gif'
       }],
       recommends: [{
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      }, {
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      }, {
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      }],
+      hots: [{
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      }, {
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      }, {
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      }],
+      newProds: [{
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      }, {
+        store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
+        image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
+        price: '999.00'
+      }, {
         store_name: '美的（Midea）吸尘器V1手持吸尘器家用除螨无线',
         image: 'https://demo26.crmeb.net/uploads/attach/2020/10/20201014/9508488b156bddb7af17b02fefe4bc8f.jpg',
         price: '999.00'
